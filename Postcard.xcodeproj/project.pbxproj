@@ -13,6 +13,8 @@
 		F4ADC3DC19D1E16700EA644E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ADC3DB19D1E16700EA644E /* Images.xcassets */; };
 		F4ADC3DF19D1E16700EA644E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ADC3DD19D1E16700EA644E /* LaunchScreen.xib */; };
 		F4ADC3EB19D1E16700EA644E /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ADC3EA19D1E16700EA644E /* PostcardTests.swift */; };
+		F4DD340619D2089B00C95FC5 /* hulk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4DD340519D2089B00C95FC5 /* hulk.jpg */; };
+		F4DD340819D20EFD00C95FC5 /* cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4DD340719D20EFD00C95FC5 /* cap.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F4ADC3E419D1E16700EA644E /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4ADC3E919D1E16700EA644E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4ADC3EA19D1E16700EA644E /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		F4DD340519D2089B00C95FC5 /* hulk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hulk.jpg; sourceTree = "<group>"; };
+		F4DD340719D20EFD00C95FC5 /* cap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		F4ADC3D219D1E16700EA644E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4DD340719D20EFD00C95FC5 /* cap.jpg */,
+				F4DD340519D2089B00C95FC5 /* hulk.jpg */,
 				F4ADC3D319D1E16700EA644E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DD340819D20EFD00C95FC5 /* cap.jpg in Resources */,
 				F4ADC3DA19D1E16700EA644E /* Main.storyboard in Resources */,
 				F4ADC3DF19D1E16700EA644E /* LaunchScreen.xib in Resources */,
+				F4DD340619D2089B00C95FC5 /* hulk.jpg in Resources */,
 				F4ADC3DC19D1E16700EA644E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				F4ADC3F019D1E16700EA644E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4ADC3F119D1E16700EA644E /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				F4ADC3F319D1E16700EA644E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
